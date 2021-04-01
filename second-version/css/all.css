@@ -1,0 +1,176 @@
+h1 {font-size:2.5em; font-weight: 550;} /* 40px/16=2.5em */
+h2 {font-size:1.875em;} /* 30px/16=1.875em */
+
+
+nav ul li{
+  margin: auto 20px;
+  font-size: 28px;
+}
+/*frame*/
+
+
+body {
+  background-image: url('../img/background.png'); 
+  background-repeat: repeat-y;
+  background-size:100%;
+  font-family: serif;
+}
+
+a {
+  text-decoration:none;
+  color:white;
+}
+
+#homepage {
+  width:42px;
+  height:42px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+.compare-attr {
+  background-color: white !important;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.3);
+}
+
+.row-attr {
+
+  background: white;
+  margin: 15px 0;
+  padding: 10px;
+
+  font-size: 28px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.compare_list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 17px;
+  line-height: 3;
+  color: #6E6E73;
+}
+
+/*main subpages*/
+.sub_header {
+  margin-left: 15px;
+  font-size: 50px;
+}
+
+.column1-attr {
+  padding: 15px;
+  margin: 15px 0; 
+  border-radius: 15px;
+  background: black;
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.3);
+}
+
+.table {
+  padding: 0 5%;
+  width: 90%; 
+  overflow: scroll;
+}
+
+.column2-attr {
+  padding-left: 30px;
+  color: black;
+}
+
+.specs_table td{
+  width: 167px;
+  color: white;
+  text-align: center;
+}
+
+
+/*figure*/
+
+.label {
+  border-radius: 45px;
+  background: #396afc;
+  padding: 5px 8px;
+  width: 90px;
+  height: 20px;
+  text-align: center;
+}
+
+span a:hover {
+  color: white;
+}
+
+.total {
+  width: 80%;
+  height: 115px;
+  border: 3px #bdc3c7 solid;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: #bdc3c7;
+}
+
+.underline a:hover {
+  text-decoration: underline;
+}
+
+/*font*/
+.t_right {
+  text-align: right;
+}
+
+.blue {
+  color: #396afc;
+}
+
+.grey {
+  color: #bdc3c7;
+}
+
+.more {
+  display: none;
+  color: grey;
+}
+
+
+.head0 {
+  height: 80px;
+}
+
+#myMap {
+  width:328px;
+  height: 500px;
+  border:18px black solid; border-radius: 25px;
+}
+
+
+@media print {
+  p a {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a img {
+    width: 50%;
+  }
+
+  canvas {
+    display: none;
+  }
+
+  .col-md-4 {
+    margin-top: 0.8cm;
+  }
+
+  #myMap {
+    display: none;
+  }
+}

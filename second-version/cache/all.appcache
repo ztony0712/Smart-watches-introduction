@@ -1,0 +1,14 @@
+CACHE MANIFEST
+# 2020-12-28 v1.0 
+/../index.html
+/../branc_htmls/GT2.html
+/../branc_htmls/Apple.html
+/../branc_htmls/Galaxy.html
+/../branc_htmls/compare.html
+/../img/watch.png
+
+NETWORK:
+*
+
+FALLBACK:
+/*.html /404.html
