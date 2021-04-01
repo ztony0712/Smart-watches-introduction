@@ -1,0 +1,184 @@
+/*all pages*/
+body {
+  background-image: linear-gradient(to top, #bdc3c7,#2c3e50);
+  height: 1000px;
+}
+
+a {
+  float: center;
+  padding: 20px;
+  text-decoration:none;
+  color:white;
+}
+
+.nav_hover a:hover {
+  background-color: #bdc3c7;
+  padding: 20px;
+  text-decoration:none;
+  color:black;
+  overflow: hidden;
+}
+
+nav {
+  font-size: 20px;
+  color: white;
+  overflow: scroll;
+}
+
+.homepage {
+  width:42px;
+  height:42px;
+}
+
+footer {
+  clear: both;
+  color: white;
+  text-align: center;
+}
+
+/*index and compare*/
+.index_header {
+  color: white;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 300px;
+  height: 900px;
+
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  border-radius: 15px;
+  background: inherit;
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.3);
+}
+
+.compare_list {
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+
+  line-height: 3;
+}
+
+/*main subpages*/
+.sub_header {
+  font-size: 50px;
+  color: #bdc3c7;
+}
+
+.column1 {
+  float: left;
+  width: 45%;
+  height: 750px;
+
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 1%;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  background: inherit;
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+}
+
+.column2 {
+  float: left;
+  width: 45%;
+
+  margin-left: 15px;
+  color: white;
+
+}
+
+.img {
+  width:500px;
+  margin-top: 10px;
+}
+
+.align_specs td{
+  width: 167px;
+  color: white;
+  text-align: center;
+}
+
+.table_specs {
+  width: 501px; 
+  margin: auto;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column2 {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .column1 {
+    width: 100%;
+    height: 950px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+/*figure*/
+.label {
+  border-radius: 45px;
+  background: #396afc;
+  padding: 5px 1px;
+  width: 90px;
+  height: 20px;
+  text-align: center;
+}
+
+.total {
+  width: 500px;
+  height: 115px;
+  border: 3px #2c3e50 solid;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #2c3e50;
+}
+
+.bar {
+  text-align: right;
+  line-height:2;
+}
+
+.underline a:hover {
+  text-decoration: underline;
+}
+
+/*font*/
+.text_center {
+  text-align: center;
+}
+
+.m_left {
+  margin-left: 15px;
+}
+
+.overspread {
+  width: 100%;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: #396afc;
+}
+
+.grey {
+  color: #bdc3c7;
+}
